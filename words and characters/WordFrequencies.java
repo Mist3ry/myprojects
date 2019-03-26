@@ -8,7 +8,7 @@ import java.util.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-//That class count how many unique words in file and find the word which occurs most often. The idea was implement it with using ArrayList`s
+//That class counts how many unique words in file and find the word which occurs most often. The idea was implement it with using ArrayList`s
 public class WordFrequencies {
     private ArrayList<String> myWords;
     private ArrayList<Integer> myFreqs;
