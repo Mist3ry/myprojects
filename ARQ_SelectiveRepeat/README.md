@@ -1,6 +1,6 @@
-# Selective Repeat ARQ Protocol
+# Selective Repeat ARQ
 
-The program is written in python and implements the Selective Repeat of ARQ Protocol. With selective repeat, the sender sends a number of frames specified by a window size even without the need to wait for individual ACK from the receiver as in Go-Back-N ARQ. The receiver may selectively reject a single frame, which may be retransmitted alone; this contrasts with other forms of ARQ, which must send every frame from that point again. The receiver accepts out-of-order frames and buffers them. The sender individually retransmits frames that have timed out.
+The program is written in python and implements the Selective Repeat of ARQ error-control method. With selective repeat, the sender sends a number of frames specified by a window size even without the need to wait for individual ACK from the receiver as in Go-Back-N ARQ. The receiver may selectively reject a single frame, which may be retransmitted alone; this contrasts with other forms of ARQ, which must send every frame from that point again. The receiver accepts out-of-order frames and buffers them. The sender individually retransmits frames that have timed out.
 
 The client and server side of program should be runned with following options:
 
