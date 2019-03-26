@@ -1,6 +1,6 @@
 ## Statistics from website logs
 
-The project consist of 4 files : LogAnalyzer, WebLogParser, LogEntry, Tester.
+The project consist of 4 files : Tester, LogAnalyzer, WebLogParser and LogEntry.
 
 LogEmtry represent log as a String with ipAddress, accessTime, request, statusCode and bytesReturned.
 WebLogParser parses the log from the specified file as LogEntry.

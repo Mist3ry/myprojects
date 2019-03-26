@@ -1,8 +1,8 @@
 ## Words and Characters
 
-# The following CharactersInPlay, WordFrequencies and WordsInFiles projects are provided here.
+# The following WordsInFiles, WordsInFiles and CharactersInPlay projects are provided here.
 
-The idea of filesWordsInFiles project is to find the words which occur in files. For example if all files contains specified word, or which words are at leat in 3 files.
+The idea of files WordsInFiles project is to find the words which occur in files. For example if all files contains specified word, or which words are at leat in 3 files.
 
 The WordFrequencies counts how many unique words in file and find the word which occurs most often. 
 
